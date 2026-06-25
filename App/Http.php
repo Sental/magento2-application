@@ -21,7 +21,6 @@ use Magento\Framework\AppInterface;
 use Magento\Framework\Controller\ResultInterface;
 use Magento\Framework\Event\Manager;
 use Magento\Framework\Registry;
-use Opengento\Application\App\Session\SessionRegistry;
 use Opengento\Application\App\State\InitProcessor;
 
 class Http implements AppInterface
