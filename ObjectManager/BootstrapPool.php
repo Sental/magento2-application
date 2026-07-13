@@ -102,6 +102,6 @@ class BootstrapPool
             return strtok(trim($matches[2] ?? $matches[1] ?? $matches[0] ?? $pathInfo, '/'), '/');
         }
 
-        return $this->areaList->getCodeByFrontName(strtok(trim($pathInfo, '/'), '/'));
+        return $this->areaList->getCodeByFrontName((string)strtok(trim($pathInfo, '/'), '/'));
     }
 }
